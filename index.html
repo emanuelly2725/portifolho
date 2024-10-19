@@ -30,7 +30,9 @@
         }
 
         /* Adicionando estilo para os títulos */
-        h1, h2, h5 {
+        h1,
+        h2,
+        h5 {
             color: #03182e; /* Cor azul do cabeçalho */
         }
     </style>
@@ -151,52 +153,43 @@
                         Comecei a participar do projeto dos monitores, onde me inscrevi para ajudar algumas turmas do 6º ano, e é muito legal. Eu me apego àquelas crianças, e foi uma experiência muito boa, pois, apesar dos problemas que eu tinha, aquelas crianças me faziam muito bem.
                         A maioria dos professores são muito legais e atenciosos, e aos poucos vamos entendendo isso ao longo do tempo. Este ano, dentre esses novos amigos, comecei a conversar bastante com a professora de português, Nathália. Particularmente, gosto bastante dela, pois ela já me ajudou quando estava tendo uma crise de ansiedade na sala e vice-versa. 
                         Este ano não começou muito bem, mas agora, pelo que parece, ele está terminando bem.</p>
+                    
+                    <!-- Espaços para as imagens -->
+                    <div class="row">
+                        <div class="col-4 mb-2">
+                            <img src="Imagem do WhatsApp de 2024-10-18 à(s) 18.50.15_8aa29aa0.jpg" alt="Descrição da imagem 1" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-2">
+                            <img src="Imagem do WhatsApp de 2024-10-18 à(s) 18.50.15_19b97950.jpg" alt="Descrição da imagem 2" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-2">
+                            <img src="Imagem do WhatsApp de 2024-10-18 à(s) 18.50.16_ae347943.jpg" alt="Descrição da imagem 3" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-2">
+                            <img src="Imagem do WhatsApp de 2024-10-18 à(s) 18.50.16_de820646.jpg" alt="Descrição da imagem 4" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-2">
+                            <img src="Imagem do WhatsApp de 2024-10-18 à(s) 18.50.17_283b4291.jpg" alt="Descrição da imagem 5" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-2">
+                            <img src="Imagem do WhatsApp de 2024-10-18 à(s) 18.50.17_2515cb79.jpg" alt="Descrição da imagem 6" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-2">
+                            <img src="Imagem do WhatsApp de 2024-10-18 à(s) 18.50.18_773b53ec.jpg" alt="Descrição da imagem 7" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-2">
+                            <img src="Imagem do WhatsApp de 2024-10-18 à(s) 18.50.18_dbab1ce9.jpg" alt="Descrição da imagem 8" class="img-fluid">
+                        </div>
+                        <div class="col-4 mb-2">
+                            <img src="Imagem do WhatsApp de 2024-10-18 à(s) 18.50.19_ad801dda.jpg" alt="Descrição da imagem 9" class="img-fluid">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <footer class="container py-5 text-center">
-        <p>Emanuelly - 2 C</p>
-    </footer>
-
-    <a href="#" id="backToTop" class="btn btn-secondary" style="display: none;">
-        <i class="bi bi-arrow-up"></i>
-    </a>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        window.onscroll = function() {
-            const backToTopButton = document.getElementById('backToTop');
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                backToTopButton.style.display = "block";
-            } else {
-                backToTopButton.style.display = "none";
-            }
-        };
-
-        document.querySelectorAll('.navbar-nav a').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href');
-                const targetElement = document.querySelector(targetId);
-                
-                if (targetElement) {
-                    targetElement.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-
-        document.getElementById('backToTop').addEventListener('click', function(event) {
-            event.preventDefault();
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-    </script>
 </body>
+
 </html>
